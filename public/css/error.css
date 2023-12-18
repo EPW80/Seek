@@ -1,0 +1,68 @@
+.error--header {
+  width: 100%;
+  height: 75px;
+  background: hsl(0, 0%, 100%);
+}
+
+.error--header-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 12px 200px;
+}
+
+.error--link {
+  font-size: 15px;
+  color: hsl(210, 20%, 95%); /* Light grey for text */
+  background: hsl(204, 100%, 30%); /* Darker blue for link background */
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.error-primary {
+  color: hsl(204, 100%, 35%); /* Dark blue for primary error text */
+  background-color: transparent !important;
+}
+
+.error--container {
+  position: relative;
+  top: 62px;
+  left: 274px;
+  width: 800px;
+  display: block;
+}
+.error-content {
+  position: relative;
+  left: 74px;
+  top: 20px;
+  width: 721px;
+  text-align: right;
+}
+.error-content h1 {
+  margin-bottom: 10px;
+  font-weight: 600;
+  text-align: center;
+}
+.error-content p {
+  font-size: 16px;
+  line-height: 17px;
+  color: #262626;
+  margin: 7px 0;
+  font-weight: 400;
+}
+.error-content a {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(0, 55, 107, 1);
+}
+.error-content a:hover {
+  text-decoration: underline;
+}
+.error-content img {
+  display: block;
+  height: 500px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
